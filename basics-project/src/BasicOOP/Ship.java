@@ -11,10 +11,10 @@ public class Ship {
 		this.name = intialName;
 	}
 
-/*	Ship(double initialx, initialy){
+	Ship(double initialx, double initialy){
 		
 	}
-*/	
+	
 	public void move() {
 		 double angle = MathUtils.degreesToRadians(direction);
 		this.x = this.x + speed * Math.cos(angle);	
