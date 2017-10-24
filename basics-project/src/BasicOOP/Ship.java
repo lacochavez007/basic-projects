@@ -11,7 +11,12 @@ public class Ship {
 		this.name = intialName;
 	}
 
-	Ship(double initialx, double initialy){
+	Ship(double initial_x, double initial_y,double initial_speed,double initial_direction, String initial_name){
+		this.x = initial_x;
+		this.y = initial_y;
+		this.speed = initial_speed;
+		this.direction = initial_direction;
+		this.name = initial_name;
 		
 	}
 	
